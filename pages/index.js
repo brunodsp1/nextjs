@@ -10,11 +10,11 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p>Bruno de Souza Petri</p>
         <h1 className={utilStyles.headingXl}>
-          Read{' '}
+          Test{' '}
             <Link href="/posts/first-post">
-              <a>this page!</a>
+              <a>Link!</a>
             </Link>
         </h1>
         <p>
