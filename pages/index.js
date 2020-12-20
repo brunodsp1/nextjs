@@ -10,7 +10,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Bruno de Souza Petri</p>
+        <p className={utilStyles.headingLg}>Bruno de Souza Petri</p>
         <h1 className={utilStyles.headingXl}>
           Test{' '}
             <Link href="/posts/first-post">
