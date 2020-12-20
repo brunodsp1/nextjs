@@ -4,8 +4,8 @@ import Layout from '../../components/layout'
 
 export default function FirstPost() {
   return (
-    <>
-    <Head>
+    <Layout>
+      <Head>
         <title>First Post</title>
       </Head>
       <h1>First Post</h1>
@@ -14,6 +14,6 @@ export default function FirstPost() {
           <a>Back to home</a>
         </Link>
       </h2>
-    </>
+    </Layout>
   )
 }
